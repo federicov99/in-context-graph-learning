@@ -1,0 +1,18 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Working cache of the head-ablation notebook (only the results files are published)
+running-sums/
+writer.lock
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Operating-system files
+.DS_Store
+Thumbs.db
