@@ -1,0 +1,2192 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "dtype": "torch.float32",
+  "transformers": "4.56.2",
+  "torch": "2.14.1+cu130",
+  "notebook_code": "010c9cd99c92efd7",
+  "seed": 2025,
+  "sequences": 4,
+  "words_per_sequence": 1600,
+  "topology": "square",
+  "graph": "square 4×4",
+  "random_edge_probability": null,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "words": [
+    "apple",
+    "bird",
+    "car",
+    "egg",
+    "house",
+    "milk",
+    "plane",
+    "opera",
+    "box",
+    "sand",
+    "sun",
+    "mango",
+    "rock",
+    "math",
+    "code",
+    "phone"
+  ],
+  "word_token_ids": [
+    23268,
+    11958,
+    1803,
+    18636,
+    3753,
+    14074,
+    11031,
+    42416,
+    3745,
+    9278,
+    7015,
+    69268,
+    6946,
+    6888,
+    2038,
+    4540
+  ],
+  "prefix_ids": [],
+  "accuracy_stride": 1,
+  "pca_cutoffs": [
+    1,
+    4,
+    16,
+    32,
+    100,
+    250,
+    500,
+    1000,
+    1500,
+    1600
+  ],
+  "pca_window": 200,
+  "pca_pre_block_zero_based": 23,
+  "rank_source": "Repeated-token probe on selected checkpoint: 32 prompts, seed 37139",
+  "ranked_heads": {
+    "induction": [
+      [
+        14,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        23,
+        8
+      ],
+      [
+        22,
+        7
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        14,
+        6
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        20,
+        3
+      ],
+      [
+        20,
+        9
+      ],
+      [
+        27,
+        7
+      ],
+      [
+        27,
+        8
+      ],
+      [
+        21,
+        11
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        19,
+        4
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        20,
+        4
+      ],
+      [
+        27,
+        11
+      ],
+      [
+        27,
+        6
+      ],
+      [
+        27,
+        4
+      ],
+      [
+        23,
+        3
+      ],
+      [
+        27,
+        5
+      ],
+      [
+        27,
+        1
+      ],
+      [
+        27,
+        3
+      ],
+      [
+        21,
+        6
+      ]
+    ],
+    "previous": [
+      [
+        13,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        15,
+        9
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        19,
+        11
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        23,
+        9
+      ]
+    ]
+  },
+  "query_heads_per_layer": 12,
+  "group_heads": {
+    "induction1": [
+      [
+        14,
+        3
+      ]
+    ],
+    "previous1": [
+      [
+        13,
+        4
+      ]
+    ],
+    "both1": [
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        3
+      ]
+    ],
+    "induction2": [
+      [
+        14,
+        3
+      ],
+      [
+        19,
+        3
+      ]
+    ],
+    "previous2": [
+      [
+        1,
+        4
+      ],
+      [
+        13,
+        4
+      ]
+    ],
+    "both2": [
+      [
+        1,
+        4
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        19,
+        3
+      ]
+    ],
+    "induction4": [
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ]
+    ],
+    "previous4": [
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        18,
+        8
+      ]
+    ],
+    "both4": [
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ]
+    ],
+    "induction8": [
+      [
+        2,
+        3
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        23,
+        2
+      ]
+    ],
+    "previous8": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        22,
+        2
+      ]
+    ],
+    "both8": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        23,
+        2
+      ]
+    ],
+    "induction16": [
+      [
+        2,
+        3
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        14,
+        6
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        20,
+        3
+      ],
+      [
+        22,
+        7
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        23,
+        8
+      ],
+      [
+        25,
+        4
+      ]
+    ],
+    "previous16": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        22,
+        2
+      ]
+    ],
+    "both16": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        14,
+        6
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        20,
+        3
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        22,
+        7
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        23,
+        8
+      ],
+      [
+        25,
+        4
+      ]
+    ],
+    "random32_draw1": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        8
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        17,
+        7
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        20,
+        8
+      ],
+      [
+        22,
+        4
+      ],
+      [
+        22,
+        8
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        7
+      ]
+    ],
+    "induction1_matched1": [
+      [
+        14,
+        11
+      ]
+    ],
+    "previous1_matched1": [
+      [
+        13,
+        8
+      ]
+    ],
+    "both1_matched1": [
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        5
+      ]
+    ],
+    "induction2_matched1": [
+      [
+        14,
+        9
+      ],
+      [
+        19,
+        9
+      ]
+    ],
+    "previous2_matched1": [
+      [
+        1,
+        8
+      ],
+      [
+        13,
+        7
+      ]
+    ],
+    "both2_matched1": [
+      [
+        1,
+        5
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        19,
+        8
+      ]
+    ],
+    "induction4_matched1": [
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        9
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        2
+      ]
+    ],
+    "previous4_matched1": [
+      [
+        1,
+        5
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        18,
+        4
+      ]
+    ],
+    "both4_matched1": [
+      [
+        1,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        10
+      ]
+    ],
+    "induction8_matched1": [
+      [
+        2,
+        7
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        14,
+        11
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        7
+      ]
+    ],
+    "previous8_matched1": [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        13,
+        8
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        22,
+        8
+      ]
+    ],
+    "both8_matched1": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        9
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        18,
+        9
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        22,
+        5
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        23,
+        11
+      ]
+    ],
+    "induction16_matched1": [
+      [
+        2,
+        8
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        8
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        20,
+        7
+      ],
+      [
+        22,
+        8
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        25,
+        11
+      ]
+    ],
+    "previous16_matched1": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        22,
+        3
+      ]
+    ],
+    "both16_matched1": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        14,
+        9
+      ],
+      [
+        14,
+        11
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        18,
+        5
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        7
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        22,
+        3
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        25,
+        8
+      ]
+    ]
+  },
+  "head_counts": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "conditions": [
+    {
+      "name": "intact",
+      "family": "intact",
+      "k": 0,
+      "scope": "intact"
+    },
+    {
+      "name": "induction1_everywhere",
+      "family": "induction",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction1_history",
+      "family": "induction",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "induction1_final",
+      "family": "induction",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "previous1_everywhere",
+      "family": "previous",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous1_history",
+      "family": "previous",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "previous1_final",
+      "family": "previous",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "both1_everywhere",
+      "family": "both",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both1_history",
+      "family": "both",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "both1_final",
+      "family": "both",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "induction2_everywhere",
+      "family": "induction",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction2_history",
+      "family": "induction",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "induction2_final",
+      "family": "induction",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "previous2_everywhere",
+      "family": "previous",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous2_history",
+      "family": "previous",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "previous2_final",
+      "family": "previous",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "both2_everywhere",
+      "family": "both",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both2_history",
+      "family": "both",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "both2_final",
+      "family": "both",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "induction4_everywhere",
+      "family": "induction",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction4_history",
+      "family": "induction",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "induction4_final",
+      "family": "induction",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "previous4_everywhere",
+      "family": "previous",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous4_history",
+      "family": "previous",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "previous4_final",
+      "family": "previous",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "both4_everywhere",
+      "family": "both",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both4_history",
+      "family": "both",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "both4_final",
+      "family": "both",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "induction8_everywhere",
+      "family": "induction",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction8_history",
+      "family": "induction",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "induction8_final",
+      "family": "induction",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "previous8_everywhere",
+      "family": "previous",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous8_history",
+      "family": "previous",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "previous8_final",
+      "family": "previous",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "both8_everywhere",
+      "family": "both",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both8_history",
+      "family": "both",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "both8_final",
+      "family": "both",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "induction16_everywhere",
+      "family": "induction",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction16_history",
+      "family": "induction",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "induction16_final",
+      "family": "induction",
+      "k": 16,
+      "scope": "final"
+    },
+    {
+      "name": "previous16_everywhere",
+      "family": "previous",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous16_history",
+      "family": "previous",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "previous16_final",
+      "family": "previous",
+      "k": 16,
+      "scope": "final"
+    },
+    {
+      "name": "both16_everywhere",
+      "family": "both",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both16_history",
+      "family": "both",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "both16_final",
+      "family": "both",
+      "k": 16,
+      "scope": "final"
+    },
+    {
+      "name": "random32_draw1_everywhere",
+      "family": "random",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "random32_draw1_history",
+      "family": "random",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "random32_draw1_final",
+      "family": "random",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "induction1_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction1_matched1_history",
+      "family": "induction_matched",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "induction1_matched1_final",
+      "family": "induction_matched",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "previous1_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous1_matched1_history",
+      "family": "previous_matched",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "previous1_matched1_final",
+      "family": "previous_matched",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "both1_matched1_everywhere",
+      "family": "both_matched",
+      "k": 1,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both1_matched1_history",
+      "family": "both_matched",
+      "k": 1,
+      "scope": "history"
+    },
+    {
+      "name": "both1_matched1_final",
+      "family": "both_matched",
+      "k": 1,
+      "scope": "final"
+    },
+    {
+      "name": "induction2_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction2_matched1_history",
+      "family": "induction_matched",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "induction2_matched1_final",
+      "family": "induction_matched",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "previous2_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous2_matched1_history",
+      "family": "previous_matched",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "previous2_matched1_final",
+      "family": "previous_matched",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "both2_matched1_everywhere",
+      "family": "both_matched",
+      "k": 2,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both2_matched1_history",
+      "family": "both_matched",
+      "k": 2,
+      "scope": "history"
+    },
+    {
+      "name": "both2_matched1_final",
+      "family": "both_matched",
+      "k": 2,
+      "scope": "final"
+    },
+    {
+      "name": "induction4_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction4_matched1_history",
+      "family": "induction_matched",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "induction4_matched1_final",
+      "family": "induction_matched",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "previous4_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous4_matched1_history",
+      "family": "previous_matched",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "previous4_matched1_final",
+      "family": "previous_matched",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "both4_matched1_everywhere",
+      "family": "both_matched",
+      "k": 4,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both4_matched1_history",
+      "family": "both_matched",
+      "k": 4,
+      "scope": "history"
+    },
+    {
+      "name": "both4_matched1_final",
+      "family": "both_matched",
+      "k": 4,
+      "scope": "final"
+    },
+    {
+      "name": "induction8_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction8_matched1_history",
+      "family": "induction_matched",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "induction8_matched1_final",
+      "family": "induction_matched",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "previous8_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous8_matched1_history",
+      "family": "previous_matched",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "previous8_matched1_final",
+      "family": "previous_matched",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "both8_matched1_everywhere",
+      "family": "both_matched",
+      "k": 8,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both8_matched1_history",
+      "family": "both_matched",
+      "k": 8,
+      "scope": "history"
+    },
+    {
+      "name": "both8_matched1_final",
+      "family": "both_matched",
+      "k": 8,
+      "scope": "final"
+    },
+    {
+      "name": "induction16_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction16_matched1_history",
+      "family": "induction_matched",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "induction16_matched1_final",
+      "family": "induction_matched",
+      "k": 16,
+      "scope": "final"
+    },
+    {
+      "name": "previous16_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous16_matched1_history",
+      "family": "previous_matched",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "previous16_matched1_final",
+      "family": "previous_matched",
+      "k": 16,
+      "scope": "final"
+    },
+    {
+      "name": "both16_matched1_everywhere",
+      "family": "both_matched",
+      "k": 16,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both16_matched1_history",
+      "family": "both_matched",
+      "k": 16,
+      "scope": "history"
+    },
+    {
+      "name": "both16_matched1_final",
+      "family": "both_matched",
+      "k": 16,
+      "scope": "final"
+    }
+  ],
+  "random_draw_seed": 113295,
+  "layer_matched_draws": 1,
+  "layer_matched_seed": [
+    113295,
+    1
+  ],
+  "word_assignment_seed": -1
+}

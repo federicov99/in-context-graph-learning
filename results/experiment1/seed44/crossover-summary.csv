@@ -1,0 +1,2 @@
+k,walks,from_word,previous_history_minus_final,induction_history_minus_final,crossover,crossover_low,crossover_high
+32,16,701,0.4995246,-0.14318296,0.6427076,0.6319400534033776,0.6527407571673394

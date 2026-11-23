@@ -1,0 +1,67 @@
+{
+ "settings": {
+  "model": "meta-llama/Llama-3.1-8B",
+  "graph": "ring",
+  "graph_size": 4,
+  "num_words": 16,
+  "words": "random",
+  "num_sequences": 32,
+  "num_tokens": 4000,
+  "layer": 26,
+  "num_layers": 32,
+  "window": 50,
+  "seed": 2,
+  "dtype": "torch.bfloat16",
+  "bos_token": true
+ },
+ "belief_fit": {
+  "p0": 0.0,
+  "q": 0.9832396678793484,
+  "b": -8.82066299356238,
+  "gamma": 6.171505418789248,
+  "alpha": 0.8931476748253716,
+  "N*": 28.289853168143868
+ },
+ "belief_fit_reliable": true,
+ "belief_fit_problems": [],
+ "progress_towards_plateau": 0.9935898925743932,
+ "two_line_onset_t_c": 6.67453844934851,
+ "two_line_fit_has_plateau_line": true,
+ "heldout_rmse_belief": 0.0393447382664348,
+ "heldout_rmse_two_lines": 0.039542483011540355,
+ "bic_two_lines_minus_belief": -7.86331507293778,
+ "lookup_reference": {
+  "revealed_share_N*": 11.157098095172712,
+  "revealed_share_t_c": 56.21096169203658,
+  "fit_reliable": false,
+  "final_revealed_share": 1.0,
+  "model_N*_over_revealed_share_N*": 2.5355924028653924
+ },
+ "single_walks": {
+  "verdict": "single walks have the S-shape",
+  "walks_used_for_spread": 32,
+  "diagnostics": {
+   "width_ratio": {
+    "real": 0.7837931107052013,
+    "simulated_smooth": 0.9659589918242492,
+    "simulated_jumps": 0.02932107730117373,
+    "closer_to": "smooth walks"
+   },
+   "spread": {
+    "real": 0.11766468997629768,
+    "simulated_smooth": 0.0,
+    "simulated_jumps": 0.5691003561626932,
+    "closer_to": "smooth walks"
+   },
+   "alignment_ratio": {
+    "real": 0.841889551596979,
+    "simulated_smooth": 1.028206617627641,
+    "simulated_jumps": 0.055609234208734246,
+    "closer_to": "smooth walks"
+   }
+  }
+ },
+ "chance_accuracy": 0.125,
+ "seconds_per_walk": 1.5547900944948196,
+ "peak_gpu_memory_gb": 17.485536256
+}

@@ -1,0 +1,17 @@
+node,word,reference_x,reference_y
+0,medal,0.0,0.0
+1,desk,1.0,0.0
+2,flour,2.0,0.0
+3,village,3.0,0.0
+4,uncle,0.0,-1.0
+5,chimney,1.0,-1.0
+6,planet,2.0,-1.0
+7,buckle,3.0,-1.0
+8,bottle,0.0,-2.0
+9,engine,1.0,-2.0
+10,bucket,2.0,-2.0
+11,hammer,3.0,-2.0
+12,mole,0.0,-3.0
+13,card,1.0,-3.0
+14,timber,2.0,-3.0
+15,pipe,3.0,-3.0

@@ -1,0 +1,17 @@
+node,word,reference_x,reference_y
+0,plaster,0.0,0.0
+1,orange,1.0,0.0
+2,syrup,2.0,0.0
+3,oak,3.0,0.0
+4,zipper,0.0,-1.0
+5,bank,1.0,-1.0
+6,sack,2.0,-1.0
+7,hammer,3.0,-1.0
+8,lion,0.0,-2.0
+9,flag,1.0,-2.0
+10,cricket,2.0,-2.0
+11,silk,3.0,-2.0
+12,camel,0.0,-3.0
+13,cheese,1.0,-3.0
+14,market,2.0,-3.0
+15,plum,3.0,-3.0

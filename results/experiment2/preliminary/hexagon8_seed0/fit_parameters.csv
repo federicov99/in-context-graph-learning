@@ -1,0 +1,7 @@
+parameter,value,ci68_low,ci68_high,meaning
+p0,0.0,0.0,0.0,accuracy before the transition
+q,0.9575916794747075,0.9367462862243926,0.9738244416829888,accuracy after the transition (plateau)
+b,-10.62979047682557,-30.0,-5.727970074186878,prior log-odds (more negative = more sceptical)
+gamma,7.866185031341785,3.2275963302563926,26.887445288516616,evidence rate
+alpha,0.9457577237317097,0.8965496484717267,0.9802691356569194,diminishing returns of evidence (0 = none)
+N*,257.43990587698255,250.9232870358662,266.0932874304435,transition point: midpoint of the rise (tokens)

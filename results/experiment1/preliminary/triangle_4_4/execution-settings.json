@@ -1,0 +1,7 @@
+[
+  {
+    "gpu": "NVIDIA L4",
+    "actual_query_chunk": 64,
+    "logit_rows": 32
+  }
+]

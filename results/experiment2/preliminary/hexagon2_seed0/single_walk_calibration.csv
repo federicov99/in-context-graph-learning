@@ -1,0 +1,4 @@
+diagnostic,real walks,simulated smooth walks,simulated sharp jumps,real walks are closer to
+1. median single-walk width / width of the averaged curve,0.7594971354014391,0.9665035317492274,0.029729323188592376,smooth walks
+2. walk-to-walk spread of log10 N* (decades),0.11292119997978176,0.0,0.5763003658944917,smooth walks
+3. width after alignment / width before,0.734795924979415,1.013858134569058,0.07467037382266266,smooth walks

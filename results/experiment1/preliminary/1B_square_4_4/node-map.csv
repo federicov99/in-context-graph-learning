@@ -1,0 +1,17 @@
+node,word,reference_x,reference_y
+0,apple,0.0,0.0
+1,bird,1.0,0.0
+2,car,2.0,0.0
+3,egg,3.0,0.0
+4,house,0.0,-1.0
+5,milk,1.0,-1.0
+6,plane,2.0,-1.0
+7,opera,3.0,-1.0
+8,box,0.0,-2.0
+9,sand,1.0,-2.0
+10,sun,2.0,-2.0
+11,mango,3.0,-2.0
+12,rock,0.0,-3.0
+13,math,1.0,-3.0
+14,code,2.0,-3.0
+15,phone,3.0,-3.0

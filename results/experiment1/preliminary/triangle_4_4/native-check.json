@@ -1,0 +1,38 @@
+{
+  "short_walk": {
+    "intact": {
+      "max_probability_error": 0.00935538113117218,
+      "relative_probe_error": 0.01198588777333498
+    },
+    "final": {
+      "max_probability_error": 0.0009904801845550537,
+      "relative_probe_error": 0.01127734687179327
+    },
+    "everywhere": {
+      "max_probability_error": 0.0006226599216461182,
+      "relative_probe_error": 0.009697952307760715
+    },
+    "history": {
+      "max_probability_error": 0.0038844943046569824,
+      "relative_probe_error": 0.014811179600656033
+    }
+  },
+  "longer_walk_blocked": {
+    "intact": {
+      "max_probability_error": 0.012881934642791748,
+      "relative_probe_error": 0.010622278787195683
+    },
+    "final": {
+      "max_probability_error": 0.018673986196517944,
+      "relative_probe_error": 0.010931656695902348
+    },
+    "everywhere": {
+      "max_probability_error": 0.007115781307220459,
+      "relative_probe_error": 0.011350377462804317
+    },
+    "history": {
+      "max_probability_error": 0.0170590877532959,
+      "relative_probe_error": 0.011484583839774132
+    }
+  }
+}

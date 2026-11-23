@@ -1,0 +1,17 @@
+node,word,reference_x,reference_y
+0,castle,0.0,0.0
+1,canvas,1.0,0.0
+2,wing,2.0,0.0
+3,sack,3.0,0.0
+4,pickle,0.0,-1.0
+5,mud,1.0,-1.0
+6,leaf,2.0,-1.0
+7,plane,3.0,-1.0
+8,fern,0.0,-2.0
+9,oat,1.0,-2.0
+10,frog,2.0,-2.0
+11,tray,3.0,-2.0
+12,trumpet,0.0,-3.0
+13,pear,1.0,-3.0
+14,socket,2.0,-3.0
+15,desk,3.0,-3.0

@@ -1,0 +1,32 @@
+{
+ "settings": {
+  "model": "meta-llama/Llama-3.1-8B",
+  "graph": "triangular",
+  "graph_size": 4,
+  "num_words": 16,
+  "num_sequences": 32,
+  "num_tokens": 20000,
+  "layer": 26,
+  "num_layers": 32,
+  "window": 50,
+  "seed": 0,
+  "dtype": "torch.bfloat16",
+  "bos_token": true
+ },
+ "belief_fit": {
+  "p0": 0.018474161123908216,
+  "q": 0.8817969036775906,
+  "b": -5.633422661794474,
+  "gamma": 2.7930394546583592,
+  "alpha": 0.8267699025801447,
+  "N*": 57.399074845201376
+ },
+ "belief_fit_parameters_at_search_limit": [],
+ "belief_fit_reliable": true,
+ "progress_towards_plateau": 0.9815836564857535,
+ "two_line_breakpoint_t_c": 609.537128154954,
+ "bic_two_lines_minus_belief": 49.29345459221821,
+ "chance_accuracy": 0.28603100076878846,
+ "seconds_per_walk": 8.98890122026205,
+ "peak_gpu_memory_gb": 18.62711808
+}

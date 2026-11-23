@@ -1,0 +1,292 @@
+{
+  "model": "meta-llama/Llama-3.1-8B",
+  "graph": "square 4×4",
+  "walks": 16,
+  "conditions": [
+    {
+      "name": "intact",
+      "family": "intact",
+      "k": 0,
+      "scope": "intact"
+    },
+    {
+      "name": "induction32_everywhere",
+      "family": "induction",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction32_history",
+      "family": "induction",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "induction32_final",
+      "family": "induction",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "previous32_everywhere",
+      "family": "previous",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous32_history",
+      "family": "previous",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "previous32_final",
+      "family": "previous",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "both32_everywhere",
+      "family": "both",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both32_history",
+      "family": "both",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "both32_final",
+      "family": "both",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "induction32_matched1_everywhere",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction32_matched1_history",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "induction32_matched1_final",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "previous32_matched1_everywhere",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous32_matched1_history",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "previous32_matched1_final",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "both32_matched1_everywhere",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both32_matched1_history",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "both32_matched1_final",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "induction32_matched2_everywhere",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction32_matched2_history",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "induction32_matched2_final",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "previous32_matched2_everywhere",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous32_matched2_history",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "previous32_matched2_final",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "both32_matched2_everywhere",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both32_matched2_history",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "both32_matched2_final",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "induction32_matched3_everywhere",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction32_matched3_history",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "induction32_matched3_final",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "previous32_matched3_everywhere",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous32_matched3_history",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "previous32_matched3_final",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "both32_matched3_everywhere",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both32_matched3_history",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "both32_matched3_final",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "induction32_matched4_everywhere",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "induction32_matched4_history",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "induction32_matched4_final",
+      "family": "induction_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "previous32_matched4_everywhere",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "previous32_matched4_history",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "previous32_matched4_final",
+      "family": "previous_matched",
+      "k": 32,
+      "scope": "final"
+    },
+    {
+      "name": "both32_matched4_everywhere",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "everywhere"
+    },
+    {
+      "name": "both32_matched4_history",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "history"
+    },
+    {
+      "name": "both32_matched4_final",
+      "family": "both_matched",
+      "k": 32,
+      "scope": "final"
+    }
+  ],
+  "accuracy": "Mean full-vocabulary probability assigned to legal neighbors; units 0–1.",
+  "accuracy_by_walk": "Axes [condition, walk, position]: the same probability for every walk.",
+  "effects_summary": "effects-summary.csv: mean over words 701–1400, drop relative to intact on the same walks, 95% paired bootstrap interval over walks, and the drop beyond the matching control where one exists.",
+  "crossover_summary": "crossover-summary.csv: per k, (previous-token drop in the history minus at the final word) minus (the same for induction heads), with a 95% interval.",
+  "pca": "Axes [condition, cutoff, node, component]. NaN coordinates mark unobserved nodes.",
+  "node_count": "Pooled number of observations per cutoff and node in the trailing PCA window.",
+  "variance_fraction": "Fraction of between-word centroid variance on PC1 and PC2.",
+  "graph_overlap": "Mean squared alignment with the first two nonconstant modes of the unnormalized graph Laplacian (0–1). NaN for incomplete coverage, rank below two, fewer than three nodes, disconnected graphs, or a tie crossing the second/third nonconstant eigenvalue boundary. With exactly three nodes, any full-rank centered plane spans the entire nonconstant subspace.",
+  "random_curves": "Random draws of the same size are averaged for accuracy and plotted separately for PCA."
+}
